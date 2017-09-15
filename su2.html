@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index2.css"/>
+	</head>
+	<body>
+		<nav class="navbar-default navbar-fixed-top daohang">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">
+						<img src="img/logo.png" alt="logo"/>
+					</a>
+					<button class="navbar-toggle" data-toggle="collpase" data-target="#collpase">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="collpase">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="">旅游</a></li>
+						<li><a href="">小吃</a></li>
+						<li class="active"><a href="">社会</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div style="height:50px;"></div>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Nihil ullam</h1>
+				<p>Nihil ullam  necessitatibus porro odit veniam aut non dignissimos!</p>
+			</div>
+		</div>
+		<div id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="list-group">
+							<a href="#a1" class="list-group-item">影视产业</a>
+							<a href="#a2" class="list-group-item">人民生活</a>
+							<a href="#a3" class="list-group-item">社会保障</a>
+						</div>
+					</div>
+					<div class="col-md-9 box-shadow">
+						<a name="a1"></a>
+						<h3>影视产业</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere explicabo ex sapiente nostrum quasi est tempora ratione illo quia dolor alias nulla asperiores maiores laboriosam iusto ipsam hic. Suscipit tempore!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt fugit qui quae obcaecati cumque soluta tenetur corrupti quis error aspernatur fugiat aliquam praesentium neque dolorem dolore minima quasi iste minus.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore aspernatur consectetur temporibus eligendi quo tempora quos incidunt modi eaque aperiam provident accusamus vel! Fugit laborum aut corrupti inventore praesentium amet!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repellat doloremque incidunt vero voluptatem tempore eligendi sequi consectetur quaerat quo repudiandae et quos id beatae quae quasi asperiores eum placeat!
+						</p>
+						<a name="a2"></a>
+						<h3>人民生活</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere explicabo ex sapiente nostrum quasi est tempora ratione illo quia dolor alias nulla asperiores maiores laboriosam iusto ipsam hic. Suscipit tempore!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt fugit qui quae obcaecati cumque soluta tenetur corrupti quis error aspernatur fugiat aliquam praesentium neque dolorem dolore minima quasi iste minus.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore aspernatur consectetur temporibus eligendi quo tempora quos incidunt modi eaque aperiam provident accusamus vel! Fugit laborum aut corrupti inventore praesentium amet!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repellat doloremque incidunt vero voluptatem tempore eligendi sequi consectetur quaerat quo repudiandae et quos id beatae quae quasi asperiores eum placeat!
+						</p>
+						<a name="a3"></a>
+						<h3>社会保障</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere explicabo ex sapiente nostrum quasi est tempora ratione illo quia dolor alias nulla asperiores maiores laboriosam iusto ipsam hic. Suscipit tempore!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt fugit qui quae obcaecati cumque soluta tenetur corrupti quis error aspernatur fugiat aliquam praesentium neque dolorem dolore minima quasi iste minus.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore aspernatur consectetur temporibus eligendi quo tempora quos incidunt modi eaque aperiam provident accusamus vel! Fugit laborum aut corrupti inventore praesentium amet!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repellat doloremque incidunt vero voluptatem tempore eligendi sequi consectetur quaerat quo repudiandae et quos id beatae quae quasi asperiores eum placeat!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="container">
+				<p>制作人：陈冲</p>
+				<p>联系地址：北京市顺义区</p>
+				<p>联系电话：15582415977</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		var t=($(".txtH").height()-$(".imgH").height())/2;
+		
+		console.log($(".txtH").height())
+		console.log($(".imgH").height())
+		$(".txtH").css({marginTop:t+"px"})
+		$(window).resize(function(){
+			var t=($(".imgH").height()-$(".txtH").height())/2
+			$(".txtH").css({marginTop:t+"px"})
+		})
+		
+	})
+	
+	
+	
+	
+	
+</script>

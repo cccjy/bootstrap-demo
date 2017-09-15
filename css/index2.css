@@ -1,0 +1,96 @@
+
+.daohang .navbar-brand{
+	padding-top:8px;
+}
+.carousel-img{
+	margin: auto;
+}
+.tab1{
+	margin:30px 0;
+}
+.tab1 .tab-h2{
+	font-size:26px;
+	text-align: center;
+	color:#28A4C9;
+}
+.tab1 .tab-p{
+	font-size:15px;
+	text-align: center;
+	color:#C7DDEF;
+	padding-top:5px;
+	letter-spacing:3px;
+}
+.tab1 .media{
+	padding-top:20px;
+}
+.tab1 .media-heading{
+	padding-bottom:10px;
+}
+.tab1 .media img{
+	width:200px;
+}
+.tab2{
+	padding:60px 20px;
+	background-color:#F2DEDE;
+	text-align: center;
+	color:#66AFE9;
+}
+.tab2 h3{
+	/*margin-top:8%;*/
+	padding-bottom:10px;
+}
+.tab2 p{
+	font-size:14px;
+	line-height:1.8;
+}
+.tab2 img{
+	width:100%;
+}
+
+#footer{
+	padding:20px;
+	text-align: center;
+	border-top:1px solid #ccc;
+	background-color:#ccc;
+}
+@media (min-width:768px) {
+	.tab1 .tab-h2{font-size:22px;}
+	.tab1 .tab-p{font-size:13px;}
+}
+@media (min-width:992px) {
+	.tab1 .tab-h2{font-size:24px;}
+	.tab1 .tab-p{font-size:14px;}
+}
+@media (min-width:1200px) {
+	.tab1 .tab-h2{font-size:26px;}
+	.tab1 .tab-p{font-size:15px;}
+}
+
+.jumbotron{
+	background-color:#000;
+	color:#fff;
+	margin-bottom:0;
+}
+.jumbotron h1{font-size:34px;}
+.jumbotron p{font-size:16px;}
+
+#case{
+	padding:30px 0 10px;
+	background-color:rgba(0,0,255,.4);
+	text-align: center;
+}
+#about{
+	padding:40px 0;
+}
+#about .box-shadow{
+	box-shadow:2px 2px 3px gray;
+}
+#about h3{
+	padding-bottom:20px;
+	margin-bottom:15px;
+	border-bottom:1px solid #ccc;
+}
+#about p{
+	text-indent:2em;
+	line-height:1.8;
+}

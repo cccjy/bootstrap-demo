@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index2.css"/>
+	</head>
+	<body>
+		<nav class="navbar-default navbar-fixed-top daohang">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">
+						<img src="img/logo.png" alt="logo"/>
+					</a>
+					<button class="navbar-toggle" data-toggle="collpase" data-target="#collpase">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="collpase">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="">旅游</a></li>
+						<li class="active"><a href="">小吃</a></li>
+						<li><a href="">社会</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div style="height:50px;"></div>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Adipisci</h1>
+				<p>Adipisci accusamus excepturi eveniet!</p>
+			</div>
+		</div>
+		<div id="case">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<img src="img/nature.png"/>
+							<div class="caption">
+								<h3>概况</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum praesentium beatae ipsa velit vitae quo mollitia sint cumque repellat nesciunt !</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<img src="img/nature.png"/>
+							<div class="caption">
+								<h3>概况</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum praesentium beatae ipsa velit vitae quo mollitia sint cumque repellat nesciunt !</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<img src="img/nature.png"/>
+							<div class="caption">
+								<h3>概况</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum praesentium beatae ipsa velit vitae quo mollitia sint cumque repellat nesciunt !</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<img src="img/nature.png"/>
+							<div class="caption">
+								<h3>概况</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum praesentium beatae ipsa velit vitae quo mollitia sint cumque repellat nesciunt !</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<img src="img/nature.png"/>
+							<div class="caption">
+								<h3>概况</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum praesentium beatae ipsa velit vitae quo mollitia sint cumque repellat nesciunt !</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<img src="img/nature.png"/>
+							<div class="caption">
+								<h3>概况</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum praesentium beatae ipsa velit vitae quo mollitia sint cumque repellat nesciunt !</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<img src="img/nature.png"/>
+							<div class="caption">
+								<h3>概况</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum praesentium beatae ipsa velit vitae quo mollitia sint cumque repellat nesciunt !</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="thumbnail">
+							<img src="img/nature.png"/>
+							<div class="caption">
+								<h3>概况</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum praesentium beatae ipsa velit vitae quo mollitia sint cumque repellat nesciunt !</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="container">
+				<p>制作人：陈冲</p>
+				<p>联系地址：北京市顺义区</p>
+				<p>联系电话：15582415977</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		var t=($(".txtH").height()-$(".imgH").height())/2;
+		
+		console.log($(".txtH").height())
+		console.log($(".imgH").height())
+		$(".txtH").css({marginTop:t+"px"})
+		$(window).resize(function(){
+			var t=($(".imgH").height()-$(".txtH").height())/2
+			$(".txtH").css({marginTop:t+"px"})
+		})
+		
+	})
+	
+	
+	
+	
+	
+</script>
